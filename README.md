@@ -54,7 +54,7 @@ Screen with the list of pokemons example
 
 ![](pokemon_list_screen.png)
 
-Example of pokemon details screen, displaying stats as shown on the image is an optional feature, you can do it as you see fit for your app
+Example of pokemon details screen (displaying stats as shown on the image is an optional feature, you can do it as you see fit for your app)
 
 ![](pokemon_details_screen.png)
 
