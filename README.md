@@ -34,7 +34,7 @@ To implement the design goals, you can utilize the following technologies and to
 3. **Data Storage and Caching(Days 4-5)**
    - Implement Room for local data storage
    - Cache the pokemons you retrieve for displaying even if there is no internet connection. If optional features are implemented store pokemon data to Room when user saves it to "favourite".
-   
+
 4. **Day 5-6: Background Tasks**
    - Use WorkManager to schedule background tasks such as a reminder when user hasn't opened the app for some time (7 days for example)
 
@@ -46,10 +46,11 @@ The app should incorporate the following key design elements:
 - **Pokemon Details**: Design a clear and informative interface for displaying detailed information about individual Pokemon. This should include characteristics such as type, abilities, stats, evolution stages, and descriptions. Also saving to favourites should be allowed on this screen.
 
 - **Optional Features**: Consider adding optional features, such as search and filter feature that empowers users to easily find specific Pokemon by name, type, or other attributes. Also
-adding Favourite Pokemons (screen that allows user to view list of favourite pokemons and navigate to their details screen on click), can be a great idea.
+  adding Favourite Pokemons (screen that allows user to view list of favourite pokemons and navigate to their details screen on click), can be a great idea.
 
 **Here is an example of how similar app can look**
-Screen with the lis of pokemons example
+
+Screen with the list of pokemons example
 
 ![](pokemon_list_screen.png)
 
@@ -61,10 +62,12 @@ Example of pokemon details screen, displaying stats as shown on the image is an 
 Here is the official documentation of the free [PokeApi Documentation](https://pokeapi.co/docs/v2). It provides a list of all pokemons, which can be retrieved with pagination, as well as all the possible information about each individual pokemon.
 This api does not contain pokemon images directly, so you can use https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/$index.png to get pokemon image by a corresponding id (replace $index with needed pokemon id).
 
-## Example of API Call that returns list of 10 pokemon:
-https://pokeapi.co/api/v2/pokemon?limit=10&offset=0
+**Example of API Call that returns list of 10 pokemon:** https://pokeapi.co/api/v2/pokemon?limit=10&offset=0
 
-## Example of JSON Response:
+
+**Example of API Call that returns details for a specific pokemon:** https://pokeapi.co/api/v2/pokemon/5
+
+**Example of JSON Response:**
 ```json
 {
   "count": 1292,
@@ -115,8 +118,8 @@ https://pokeapi.co/api/v2/pokemon?limit=10&offset=0
 }
 ```
 
-## Example of API Call that returns details for a specific pokemon:
-https://pokeapi.co/api/v2/pokemon/5
+
+
 
 
 
