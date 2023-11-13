@@ -41,7 +41,7 @@ To implement the design goals, you can utilize the following technologies and to
 ## App Design
 The app should incorporate the following key design elements:
 
-- **Home screen**: Create an intuitive and user-friendly interface that allows users to seamlessly browse through a list of Pokemons, with pagination. Allow user to open pokemon details screen on click and save pokemon to favourites.
+- **Home screen**: Create an intuitive and user-friendly interface that allows users to seamlessly browse through a list of Pokemons, fetched from an external API described below, with pagination. Allow user to open pokemon details screen on click and save pokemon to favourites. 
 
 - **Pokemon Details**: Design a clear and informative interface for displaying detailed information about individual Pokemon. This should include characteristics such as type, abilities, stats, evolution stages, and descriptions. Also saving to favourites should be allowed on this screen.
 
@@ -117,11 +117,3 @@ This api does not contain pokemon images directly, so you can use https://raw.gi
   ]
 }
 ```
-
-
-
-
-
-
-
-
